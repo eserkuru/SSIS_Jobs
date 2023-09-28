@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="4"
-  DTS:VersionGUID="{526D3D63-DDA9-4D82-8033-89C0C60BA7B9}">
+  DTS:VersionBuild="5"
+  DTS:VersionGUID="{AC7983FC-2784-455B-ABD6-170477E61709}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">6</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,24 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfmKuVS3ye0C4vm8lykP/lwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABnGkP41Wz3Hk27kHCsgBg9Aj6KaATcHJBC7cA5qhJv3AAAAAAOgAAAAAIAACAAAAAecXsYq1TGz6G52W6TFhKCr2irRk2fmu52amYdZIHVfyAAAAB6ro3kLWeN7Pk0kgXvDnqyanRVo4BuqCn4fOCBzdWv/0AAAABtpRXXqKVD12SK+EmsbSPzWKlwZe0tck9dJETBlj5+DpqNTaSjTyGTRBtvpUArXE/WulxkS5inYf/Pc7WvTuSX</DTS:Password>
-        </DTS:ConnectionManager>
-      </DTS:ObjectData>
-    </DTS:ConnectionManager>
-    <DTS:ConnectionManager
-      DTS:refId="Package.ConnectionManagers[SSIS-SERVER.TestDB.sa]"
-      DTS:CreationName="OLEDB"
-      DTS:DTSID="{900BB3D4-A950-4508-8AD8-FC3656B97FBF}"
-      DTS:ObjectName="SSIS-SERVER.TestDB.sa">
-      <DTS:ObjectData>
-        <DTS:ConnectionManager
-          DTS:ConnectRetryCount="1"
-          DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=SSIS-SERVER;User ID=sa;Initial Catalog=TestDB;Provider=SQLNCLI11.1;Persist Security Info=True;Application Name=SSIS-Package-{900BB3D4-A950-4508-8AD8-FC3656B97FBF}SSIS-SERVER.TestDB.sa;Auto Translate=False;">
-          <DTS:Password
-            DTS:Name="Password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfmKuVS3ye0C4vm8lykP/lwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAz3pSYk23QfhpCxO0OaZDlNDsY8o+5CSbzxVPRrQ+gAAAAAAAOgAAAAAIAACAAAAAJ23lojNQjVu95p3irE/1HqorvzdKtGzn6b+8TAQRKfyAAAAD7O/DtYQVT1bTaBW438tWWdye0RYK/k7rz/AZa4zeRpEAAAADZE960Dl4Gc7esuh9dhhirjnsVSI4DQQNJo8NxbLVIql2YrIDSknWw4LjPPCFxNaueveTAZJLM1QsHU/DJUTmt</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfmKuVS3ye0C4vm8lykP/lwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAFkuMNZILx7rVN16wbWIFrxya5AbuqaKtmY881WYdnUgAAAAAOgAAAAAIAACAAAACFb+Mmshocb3LjtnDaAOzN+FXMHRBuQZ2W6JPuAMSo8iAAAADpI74QC9BqeweM4RRJDpuaPKB6eGuAyFcHZOMLHUHK0kAAAABYo+/Vy1zzRyQeSykM4EpGFaaxCMH5UvPQtrFh6iwfopK7v4z0TekNkts6QHY9BKRdQDmLJ2OrYRas+aAPQpgJ</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
