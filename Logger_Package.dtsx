@@ -1,20 +1,20 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="9/28/2023 2:59:33 PM"
-  DTS:CreationName="SSIS.Package.3"
+  DTS:CreationName="Microsoft.Package"
   DTS:CreatorComputerName="DB-SERVER"
   DTS:CreatorName="DB-SERVER\admin"
   DTS:DTSID="{C3F9416B-CBFA-493E-972F-6F89808CF77A}"
-  DTS:ExecutableType="SSIS.Package.3"
+  DTS:ExecutableType="Microsoft.Package"
   DTS:LastModifiedProductVersion="16.0.5270.0"
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="2"
-  DTS:VersionGUID="{F24666F0-C4ED-4433-9040-69CDC2451E68}">
+  DTS:VersionBuild="3"
+  DTS:VersionGUID="{82AFD550-BA35-4061-B129-B867A7F3776D}">
   <DTS:Property
-    DTS:Name="PackageFormatVersion">6</DTS:Property>
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[DB-SERVER.TestDB.sa]"
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfmKuVS3ye0C4vm8lykP/lwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC1Y+ck4WlPfFA67Zru5V7u9Sx2lFJs5p3XLkKOYZMiWAAAAAAOgAAAAAIAACAAAABdRU4cvy2qWhvoAWyMU6ZYmxYBjAm5wcws4hREBa4SdyAAAADzKXGuJcijn6EZ6MfqMm3f9ggA09WAMTPcJ4DW1XT75kAAAAALBQEhkJ5pQAQoSLr8B/rguTA97nPk3jeg3nu6av9zKdGHWT2QUAtX6mIQYdT8QZtFd/xdD5T1/ZSYBVgLu0Xz</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfmKuVS3ye0C4vm8lykP/lwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAD157n42pENFCAjf7CSSGB9LIWldTSDLA+T7H1EV9AWGwAAAAAOgAAAAAIAACAAAADQF5bMxxfXpfi6nKjaP1cUKrQie6LeU1C8nZVchJwdJCAAAAByM289r5O2cdfil6gR+o7WfbE1YNaJV7ZMXa+eh/16xEAAAAA0CS4osrrD/cqDRwMPIswRr8PkE368+jrZWxBIUWx2kDzRTGcOOjH7mkx//gF6QFZpDfkFWzN4AM/VHVwNGAR3</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -46,7 +46,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfmKuVS3ye0C4vm8lykP/lwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABNIE20hZkY5NuAqH/XwQwHaoSxqIE86VB6hdgrNh0oMwAAAAAOgAAAAAIAACAAAACaHgGIOjL04AvfFc3zwZYEAApRuNaXIhnnX9IYMRXpzyAAAACXNS6J5GxcYnG4l6zRsVgnOYE6VZC7cP4uO9XnC15M8UAAAACPvTRyBBKy0qIBWbdo0zb+xgWCofVRS5oBhyE3Ma4h4sEZYghYQy+5ZikZKzsX2Y983imoIHnAwhwgqE/VATHq</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfmKuVS3ye0C4vm8lykP/lwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABAN8KrpYPMZZKGzb3V9s1PzmXKLR5su37/9GXQpQXUbgAAAAAOgAAAAAIAACAAAABK6wCqHCJZwKLlSDBy6e8/E2l5JbR8JifUj0tkptrQ4iAAAACHDzVQv9kdXakwzm6/rsJRMEIszuRED4kMYE8LPZy4qUAAAACRRWsSpWJXe0x9h8E8qok2PtwsM8CQovhR5kRuc8n9+1i/m+kyBO4W0wNZ1Zk/o2F/oCZlBw8y/Un6CzQWXk7O</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -55,10 +55,10 @@
   <DTS:Executables>
     <DTS:Executable
       DTS:refId="Package\Execute SQL Task"
-      DTS:CreationName="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
       DTS:Description="Execute SQL Task"
       DTS:DTSID="{9956D2D5-D9B1-4E27-9F13-8CDDFFAE3F94}"
-      DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
       DTS:LocaleID="-1"
       DTS:ObjectName="Execute SQL Task"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
@@ -67,7 +67,7 @@
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{352ED4D3-1EC4-4EAC-97DA-AB6B2E7550C9}"
-          SQLTask:SqlStatementSource="INSERT INTO [TestDB].[dbo].[Logs] ([LogTime] ,[Description]) VALUES (GETDATE() ,'Log 1')" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="INSERT INTO [TestDB].[dbo].[Logs] ([LogTime] ,[Description]) VALUES (GETDATE() ,'Log 2')" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>
@@ -76,7 +76,7 @@
 <!--If you manually edit this section and make a mistake, you can delete it. -->
 <!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
 <Objects
-  Version="sql11">
+  Version="8">
   <!--Each node below will contain properties that do not affect runtime behavior.-->
   <Package
     design-time-name="Package">
