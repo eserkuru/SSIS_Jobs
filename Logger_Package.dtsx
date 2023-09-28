@@ -1,20 +1,20 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="9/28/2023 2:59:33 PM"
-  DTS:CreationName="Microsoft.Package"
+  DTS:CreationName="SSIS.Package.3"
   DTS:CreatorComputerName="DB-SERVER"
   DTS:CreatorName="DB-SERVER\admin"
   DTS:DTSID="{C3F9416B-CBFA-493E-972F-6F89808CF77A}"
-  DTS:ExecutableType="Microsoft.Package"
+  DTS:ExecutableType="SSIS.Package.3"
   DTS:LastModifiedProductVersion="16.0.5270.0"
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
   DTS:VersionBuild="2"
-  DTS:VersionGUID="{AB4F3CFD-F070-485D-BA99-E1C7361D1F2D}">
+  DTS:VersionGUID="{F24666F0-C4ED-4433-9040-69CDC2451E68}">
   <DTS:Property
-    DTS:Name="PackageFormatVersion">8</DTS:Property>
+    DTS:Name="PackageFormatVersion">6</DTS:Property>
   <DTS:ConnectionManagers>
     <DTS:ConnectionManager
       DTS:refId="Package.ConnectionManagers[DB-SERVER.TestDB.sa]"
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfmKuVS3ye0C4vm8lykP/lwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB8F2ALe9OWfzfOLSEUPgtIsVXYYD6k660wzZU+4sCktgAAAAAOgAAAAAIAACAAAABh+/kq85QaTJI829YRpcx8PKnvMTAvgALx8k8+q/3c7yAAAAAxpV3SK5VzokSM9zmM6MUZSRQietWNI3qOoV/qHw0qIUAAAAD/kX5IHi4mJgtMJkJmPoyL6slHssuGjq8IVR0GNkT9IzoFwW9WCtzypwhdVlKbplFENYOSWVuL2CsnVxwygetu</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfmKuVS3ye0C4vm8lykP/lwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAC1Y+ck4WlPfFA67Zru5V7u9Sx2lFJs5p3XLkKOYZMiWAAAAAAOgAAAAAIAACAAAABdRU4cvy2qWhvoAWyMU6ZYmxYBjAm5wcws4hREBa4SdyAAAADzKXGuJcijn6EZ6MfqMm3f9ggA09WAMTPcJ4DW1XT75kAAAAALBQEhkJ5pQAQoSLr8B/rguTA97nPk3jeg3nu6av9zKdGHWT2QUAtX6mIQYdT8QZtFd/xdD5T1/ZSYBVgLu0Xz</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -46,7 +46,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfmKuVS3ye0C4vm8lykP/lwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAu0vChoOOWk45WqmQBXYaVUhH0C4XI55I56rWJ+UIOmAAAAAAOgAAAAAIAACAAAAAtDN/OY2hfu4VIVuKxYSiiPnEavSwixKLdrRYflzb4RyAAAAAb/Msq3x+NA83mwPC4XfB+h+1k/bbi90QupQEkbv8kDkAAAACN5+gtX6l4pbYA1QA7AwS8P+NQGzz1fIx8niVhf27Q1Pd++ZU/V++DBOdIQSVi+Kgz4D4PiHArFOncp4YR3VX1</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfmKuVS3ye0C4vm8lykP/lwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABNIE20hZkY5NuAqH/XwQwHaoSxqIE86VB6hdgrNh0oMwAAAAAOgAAAAAIAACAAAACaHgGIOjL04AvfFc3zwZYEAApRuNaXIhnnX9IYMRXpzyAAAACXNS6J5GxcYnG4l6zRsVgnOYE6VZC7cP4uO9XnC15M8UAAAACPvTRyBBKy0qIBWbdo0zb+xgWCofVRS5oBhyE3Ma4h4sEZYghYQy+5ZikZKzsX2Y983imoIHnAwhwgqE/VATHq</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -55,10 +55,10 @@
   <DTS:Executables>
     <DTS:Executable
       DTS:refId="Package\Execute SQL Task"
-      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:CreationName="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
       DTS:Description="Execute SQL Task"
       DTS:DTSID="{9956D2D5-D9B1-4E27-9F13-8CDDFFAE3F94}"
-      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:ExecutableType="Microsoft.SqlServer.Dts.Tasks.ExecuteSQLTask.ExecuteSQLTask, Microsoft.SqlServer.SQLTask, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91"
       DTS:LocaleID="-1"
       DTS:ObjectName="Execute SQL Task"
       DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
@@ -76,7 +76,7 @@
 <!--If you manually edit this section and make a mistake, you can delete it. -->
 <!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
 <Objects
-  Version="8">
+  Version="sql11">
   <!--Each node below will contain properties that do not affect runtime behavior.-->
   <Package
     design-time-name="Package">
