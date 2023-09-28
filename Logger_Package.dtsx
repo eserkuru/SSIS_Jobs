@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
   DTS:refId="Package"
   DTS:CreationDate="9/28/2023 2:59:33 PM"
@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="3"
-  DTS:VersionGUID="{B337BD3F-72A5-4AAA-9303-7D4234F6E032}">
+  DTS:VersionBuild="4"
+  DTS:VersionGUID="{526D3D63-DDA9-4D82-8033-89C0C60BA7B9}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">6</DTS:Property>
   <DTS:ConnectionManagers>
@@ -29,7 +29,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfmKuVS3ye0C4vm8lykP/lwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAA07qFVafcuDcLua4KlFExWRtv2ew1Vu9HE27UEEbvIhgAAAAAOgAAAAAIAACAAAAAuIUrXfAB5RirdHQ3Pal3kpI+6vNHfSrZg16rJWnkx8iAAAACor2r1AEygcRuBrUsQxwFeqMBM3xt5+OHb19mcy1PMb0AAAACZ2pfN4w9nK7TQqgmTpqqJ51vwTAbUEqc0sT+XlFaSBFLICoxTKzS1yHqDfqY2aZanuLbbKDL67ABTTPWFlFuI</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfmKuVS3ye0C4vm8lykP/lwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAABnGkP41Wz3Hk27kHCsgBg9Aj6KaATcHJBC7cA5qhJv3AAAAAAOgAAAAAIAACAAAAAecXsYq1TGz6G52W6TFhKCr2irRk2fmu52amYdZIHVfyAAAAB6ro3kLWeN7Pk0kgXvDnqyanRVo4BuqCn4fOCBzdWv/0AAAABtpRXXqKVD12SK+EmsbSPzWKlwZe0tck9dJETBlj5+DpqNTaSjTyGTRBtvpUArXE/WulxkS5inYf/Pc7WvTuSX</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -46,7 +46,7 @@
           <DTS:Password
             DTS:Name="Password"
             Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfmKuVS3ye0C4vm8lykP/lwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACDhaMC49cQsCy5RRzMlCpBct83SpvwXhOxwh8o78ZB5gAAAAAOgAAAAAIAACAAAAADhDfvapNScxRjqKIRJqY9TdAdyJWLcZXEEDLXmZ8GQCAAAABTo/ApqBsImCGcybaMwwf9ikfE9iwPSYMh+Ca6Q4lsV0AAAABeJXPcQ4FJJg1BSgxBZGUA033cCHVGM4YHnmAAsNygLNQKE1ZWeMjhz1wH59mhobfzmuysV0+LQd2yiirXB2eo</DTS:Password>
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfmKuVS3ye0C4vm8lykP/lwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAAz3pSYk23QfhpCxO0OaZDlNDsY8o+5CSbzxVPRrQ+gAAAAAAAOgAAAAAIAACAAAAAJ23lojNQjVu95p3irE/1HqorvzdKtGzn6b+8TAQRKfyAAAAD7O/DtYQVT1bTaBW438tWWdye0RYK/k7rz/AZa4zeRpEAAAADZE960Dl4Gc7esuh9dhhirjnsVSI4DQQNJo8NxbLVIql2YrIDSknWw4LjPPCFxNaueveTAZJLM1QsHU/DJUTmt</DTS:Password>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -67,7 +67,7 @@
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{352ED4D3-1EC4-4EAC-97DA-AB6B2E7550C9}"
-          SQLTask:SqlStatementSource="INSERT INTO [TestDB].[dbo].[Logs] ([LogTime] ,[Description]) VALUES (GETDATE() ,'Log 2')" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="INSERT INTO [TestDB].[dbo].[Logs] ([LogTime] ,[Description]) VALUES (GETDATE() ,'Log 3')" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>
