@@ -11,8 +11,9 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package"
   DTS:PackageType="5"
-  DTS:VersionBuild="6"
-  DTS:VersionGUID="{17E3FB78-EB8B-42B6-9F8F-4F2540A1D67E}">
+  DTS:ProtectionLevel="2"
+  DTS:VersionBuild="8"
+  DTS:VersionGUID="{40DFAF71-9027-49F6-9D63-658B79858942}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">6</DTS:Property>
   <DTS:ConnectionManagers>
@@ -26,10 +27,16 @@
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
           DTS:ConnectionString="Data Source=DB-SERVER;User ID=sa;Initial Catalog=TestDB;Provider=SQLNCLI11.1;Persist Security Info=True;Application Name=SSIS-Package-{352ED4D3-1EC4-4EAC-97DA-AB6B2E7550C9}DB-SERVER.TestDB.sa;Auto Translate=False;">
-          <DTS:Password
-            DTS:Name="Password"
-            Sensitive="1"
-            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfmKuVS3ye0C4vm8lykP/lwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADqNrJWmOuOXzhz8ugjTzdvesxX68bM/nvV0Meqcbw03AAAAAAOgAAAAAIAACAAAADigEVksNn9UVrTGV88mLNP9YsOXRjy1bgX3cfrWqzF6yAAAADfHoLkaU14dTfjB3BAAMeGs4otiVZnGvnbjrUcYDbbFEAAAACI1yYQptb74yip+0WDPETp97RK+n87AyDtUYwOQptdRHn+HjIduzN0gQd5yJhZdwzUZsC9Cg1gqaELPkjlWnOc</DTS:Password>
+          <EncryptedData
+            Type="http://www.w3.org/2001/04/xmlenc#Element"
+            Salt="xqAyBjYtPA=="
+            IV="ULbiSU1u2ec=" xmlns="http://www.w3.org/2001/04/xmlenc#">
+            <EncryptionMethod
+              Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc" />
+            <CipherData>
+              <CipherValue>ULbiSU1u2ee1DFUzi81lH38ARaU5BE6IyBrE4KoSoGuLHjMM55rUsoyU1e4KZUREfXDj3PyXCdd45cbOKSz4wPp72dq6ww8NDtk7qfnzIgBJdIB6UtIEOO6uPt10hHxMog0P3PmTtk9zwAQkukbEOyy4mKLhpmVzt8UbDDAgDH0=</CipherValue>
+            </CipherData>
+          </EncryptedData>
         </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
@@ -50,7 +57,7 @@
       <DTS:ObjectData>
         <SQLTask:SqlTaskData
           SQLTask:Connection="{352ED4D3-1EC4-4EAC-97DA-AB6B2E7550C9}"
-          SQLTask:SqlStatementSource="INSERT INTO [TestDB].[dbo].[Logs] ([LogTime] ,[Description]) VALUES (GETDATE() ,'Log 4')" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+          SQLTask:SqlStatementSource="INSERT INTO [TestDB].[dbo].[Logs] ([LogTime] ,[Description]) VALUES (GETDATE() ,'Log 5')" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
       </DTS:ObjectData>
     </DTS:Executable>
   </DTS:Executables>
