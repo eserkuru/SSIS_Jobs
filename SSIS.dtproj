@@ -12,11 +12,11 @@
   <DataSourceViews />
   <DeploymentModelSpecificContent>
     <Manifest>
-      <SSIS:Project SSIS:ProtectionLevel="EncryptSensitiveWithUserKey" xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
+      <SSIS:Project SSIS:ProtectionLevel="EncryptSensitiveWithPassword" xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
         <SSIS:Properties>
           <SSIS:Property SSIS:Name="ID">{9ddcf026-30ab-4a72-8bf3-bf7d68596131}</SSIS:Property>
           <SSIS:Property SSIS:Name="Name">SSIS</SSIS:Property>
-          <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+          <SSIS:Property SSIS:Name="VersionMajor">0</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionBuild">0</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionComments">
@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">DB-SERVER</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAfmKuVS3ye0C4vm8lykP/lwAAAAACAAAAAAAQZgAAAAEAACAAAAClZS3vQXHxh+1BSFAxWK5S5gGfxtzwXkHga67ddB8j4gAAAAAOgAAAAAIAACAAAABO0gFkRaqQr54o4+e0Lzz85UjL7AdG1qYkQSYxCof0rpAAAADx7CfmiGk4Fm8mwrFNIKeV11qKk6Ptus4mCK8GebWqGMj1F0rc8Rzr2j/s0i+BeM4nDyw/nYXYCB0Q3EAvUh4VCKKQJVtnl6DCVuvw1/ovbYwfDclr+q4hsIo4mQxMkYIWIGB2dkh1DpbX7L5F2G+UWJ3IPS8VW/unK6+UkOBNkcOxsy7DuwHIrPkv9HeUW2hAAAAA5q2IjiORbuR+v4O6VLfPA1NUAYd2SJJ5K2yiZgQY6x/FKXWkc6HpXB8729PIO4A7Wx1aOYR/Rz6A13m7wevWMw==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1" SSIS:Salt="A6xl/12FIg==" SSIS:IV="OTei8S0Y5e8=">hCqIUjzXf3/LAfNVTcf5zSxKHP0ITICFdaBTG9PYeBznxaYiFPW25gDwlP1cMs+qbJqVkpqCL7ogIUhYLyPNYdJeJOs8x5rZsZCHPwd9ymjvJwnGDomEe5riNLxf1ZoAyq/Pcznj7Fn8DOMs+ujTalGfGbLYqQnmCiBQp8qenztdnUVEjCL6DA==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -42,14 +42,14 @@
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">5</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{AC7983FC-2784-455B-ABD6-170477E61709}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{40DFAF71-9027-49F6-9D63-658B79858942}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">6</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="ProtectionLevel">1</SSIS:Property>
+                <SSIS:Property SSIS:Name="ProtectionLevel">2</SSIS:Property>
               </SSIS:Properties>
               <SSIS:Parameters>
                 <SSIS:Parameter SSIS:Name="CM.DB-SERVER.TestDB.sa.ConnectByProxy">
